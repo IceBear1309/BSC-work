@@ -7,10 +7,10 @@ with open(r"C:\Users\adith\Desktop\_\BSC work\Week 1-2\testingdata.csv",'r') as 
     for line in csv_TestData:
             if line[3] == line[4]:
                 x=x+1
+                y=y+1
             else:
                 x=x
-    y=y+1          
-        
+                y=y+1       
 print(x)
 print(y)
 print((x/y) * 100 ,"%")
